@@ -18,9 +18,9 @@ main{
 }
 
 h1{
-font-family: "Bebas Neue", sans-serif;
-color: aliceblue;
-text-shadow: 3px 3px #000;
+    font-family: "Bebas Neue", sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 2px #000;
 }
 
 .frase{
@@ -33,11 +33,12 @@ text-shadow: 3px 3px #000;
     text-align: center;
     margin-bottom: 10px;
     margin-top: 15px;
+    text-shadow: 1px 1px #000;
 }
 
 .frase h2{
-margin-block-start: 0em;
-margin-block-end: 0em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 
@@ -81,36 +82,36 @@ html,
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
-  
-  .button-54:active {
+}
+
+.button-54:active {
     box-shadow: 0px 0px 0px 0px;
     top: 5px;
     left: 5px;
-  }
+}
 
-  .links{
-        display: flex;
-        flex-direction: row-reverse;
-        position: relative;
-        padding: 0px 20px 0px 20px;
-        justify-content: center;
-        align-items: center;
-  }
-  
-  .links button{
+.links{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links button{
     margin: 15px;
-  }
+}
 
-  .whatsapp-logo{
+.whatsapp-logo{
     width: 30px;
     height: 30px;
-  }
+}
 
-
-  .fa-map-marker-alt{
+.fa-map-marker-alt{
     font-size: 25px;
     color: aliceblue;
+    text-shadow: 2px 2px black;
 }
 
 .fa-map-marker-alt:hover{
@@ -146,16 +147,16 @@ html,
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-  }
-  
-  .button-55:hover {
+}
+
+.button-55:hover {
     box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
     transform: translate3d(0, 2px, 0);
-  }
-  
-  .button-55:focus {
+}
+
+.button-55:focus {
     box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
-  }
+}
 /* } */
 
 /* .outubro-rosa {
