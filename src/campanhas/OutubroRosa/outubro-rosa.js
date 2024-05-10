@@ -14,7 +14,7 @@ import {butterfliesBackground} from "https://unpkg.com/threejs-toys@0.0.7/build/
             transparent: true,
             alphaTest: 0.5,
         },
-        texture: "/src/images/butterflies.png",
+        texture: "./images/butterflies.png",
         textureCount: 3,
         wingscale: [0.5,0.5,0.5,],
         wingsWidthSegments: 10,
