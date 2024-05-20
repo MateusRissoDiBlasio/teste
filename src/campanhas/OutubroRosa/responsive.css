@@ -1,0 +1,102 @@
+@media (max-width: 320px){
+
+
+h1{
+    font-size: 25px;
+    margin: 4px;
+}
+
+.frase{
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.logo{
+    margin-bottom: 5px;
+}
+
+.button-54 {
+
+    font-size: 12px;
+}
+
+.button-55 {
+    font-size: 36px;
+}
+}
+
+@media (min-width: 321px) and (max-width: 340px){ 
+   
+    h1{
+        font-size: 25px;
+        margin: 4px;
+    }
+    
+    .frase{
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+    
+    .logo{
+        margin-bottom: 5px;
+    }
+    
+    .button-54 {
+    
+        font-size: 12px;
+    }
+    
+    .button-55 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+  
+    .frase{
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .logo{
+        margin-bottom: 5px;
+    }
+    
+    .links{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .links:last-child{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+} 
+
+@media (min-width: 426px) and (max-width: 768px){
+    body,
+    html,
+    #app{
+        width: 768px;
+}
+}
+
+@media (min-width: 769px) {
+    
+    body,
+    html,
+    #app{
+        width: 768px;
+        height: 775px;
+}
+
+.outubro-rosa{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+main{
+    max-width: 768px;
+}
+
+}

@@ -1,13 +1,11 @@
-/* @media (min-width: 321px) and (max-width: 475px){ */
-
 .outubro-rosa{
     background-image: url(./images/laco-escrito-outubro-rosa.svg);
-    background-size: 100vw;
     background-repeat: no-repeat;
-    max-width: 100%;
+    background-size: contain;
     align-items: center;
-    position: relative;
-    position: fixed;
+    justify-self: center;
+    justify-items: center;
+    background-position: center;
 }
 
 main{
