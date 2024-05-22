@@ -9,10 +9,12 @@ import {butterfliesBackground} from "https://unpkg.com/threejs-toys@0.0.7/build/
         // background: 0xFF00FF,
         // background: 0xFF69A4,
         // background: 0xFF1493,
-        background: 0xFFB6C1,
-        // background: 0xFF69B4,
-        // background: 0xEE82EE,
-        // background: 0xDA70D6,
+        background:0xFFB6C1,
+        // background:0xFF69B4,
+        // background:0xEE82EE,
+        // background:0xDA70D6,
+        
+
         material: "basic",
         materialParams:{
             transparent: true,
