@@ -51,21 +51,88 @@ h1{
     }
 }
 
-@media (min-width: 376px) and (max-width: 425px){
-  
+/* @media (min-width: 341px) and (max-width: 360px){ 
+   
+    h1{
+        font-size: 25px;
+        margin: 4px;
+    }
+    
     .frase{
-        padding-left: 50px;
-        padding-right: 50px;
-        margin-bottom: 10px;
+        font-size: 12px;
+        margin-bottom: 35px;
     }
     
     .logo{
         margin-bottom: 5px;
     }
     
+    .button-54 {
+    
+        font-size: 12px;
+    }
+    
+    .button-55 {
+        font-size: 36px;
+    }
+} */
+
+@media (min-width: 361px) and (max-width: 375px){ 
+   
+    h1{
+        font-size: 25px;
+        margin: 4px;
+        color: blue;
+    }
+    
+    .frase{
+        font-size: 10px;
+        padding-left: 65px;
+        padding-right: 65px;
+        margin-bottom: 10px;
+    }
+    
+    .logo{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .button-54 {
+        font-size: 10px;
+    }
+    
+    .button-55 {
+        font-size: 32px;
+    }
     .links{
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .links:last-child{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+  
+    .frase{
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .logo{
+        margin-bottom: 5px;
+    }
+    
+    h1{
+        margin: 4px;
+    }
+    .links{
+        padding-left: 60px;
+        padding-right: 60px;
     }
     .links:last-child{
         padding-left: 70px;
@@ -88,7 +155,7 @@ h1{
     html,
     #app{
         width: 768px;
-        height: 775px;
+        height: 1024px;
 }
 
 .outubro-rosa{
