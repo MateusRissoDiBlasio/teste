@@ -105,8 +105,8 @@ h1{
         font-size: 32px;
     }
     .links{
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .links:last-child{
         padding-left: 40px;
