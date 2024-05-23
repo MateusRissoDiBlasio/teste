@@ -1,6 +1,5 @@
 @media (max-width: 320px){
 
-
 h1{
     font-size: 25px;
     margin: 4px;
@@ -26,7 +25,7 @@ h1{
 }
 
 @media (min-width: 321px) and (max-width: 340px){ 
-   
+
     h1{
         font-size: 25px;
         margin: 4px;
@@ -52,7 +51,7 @@ h1{
 }
 
 @media (min-width: 341px) and (max-width: 375px){ 
-   
+
     h1{
         margin: 4px;
     }
@@ -86,7 +85,7 @@ h1{
 
 /*
 @media (min-width: 360px) and (max-width: 375px){ 
-   
+
     h1{
         font-size: 25px;
         margin: 4px;
@@ -122,10 +121,16 @@ h1{
 } */
 
 @media (min-width: 376px) and (max-width: 425px){
-  
+
+    body,
+    html,
+    #app{
+        height: 1024px;
+    }
+
     .frase{
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
         margin-bottom: 10px;
         font-size: 14px;
     }
@@ -136,12 +141,13 @@ h1{
     
     h1{
         margin: 4px;
-        color: yellow;
     }
+
     .links{
-        padding-left: 60px;
-        padding-right: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
+    
     .links:last-child{
         padding-left: 70px;
         padding-right: 70px;
@@ -154,6 +160,7 @@ h1{
     html,
     #app{
         width: 768px;
+        height: 1024px;
 }
 }
 
