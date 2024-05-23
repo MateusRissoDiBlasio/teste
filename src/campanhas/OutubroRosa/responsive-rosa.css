@@ -50,7 +50,7 @@ h1{
     }
 }
 
-@media (min-width: 341px) and (max-width: 375px){ 
+@media (min-width: 341px) and (max-width: 359px){ 
 
     h1{
         margin: 4px;
@@ -83,7 +83,7 @@ h1{
 
 /* display instagram Gessyka*/
 
-/*
+
 @media (min-width: 360px) and (max-width: 375px){ 
 
     h1{
@@ -92,7 +92,7 @@ h1{
     }
     
     .frase{
-        font-size: 10px;
+        font-size: 12px;
         padding-left: 25px;
         padding-right: 25px;
         margin-bottom: 10px;
@@ -118,7 +118,7 @@ h1{
         padding-left: 40px;
         padding-right: 40px;
     }
-} */
+}
 
 @media (min-width: 376px) and (max-width: 425px){
 
