@@ -51,12 +51,10 @@ h1{
     }
 }
 
-@media (min-width: 341px) and (max-width: 359px){ 
+@media (min-width: 341px) and (max-width: 375px){ 
    
     h1{
-        font-size: 25px;
         margin: 4px;
-        color: crimson;
     }
     
     .frase{
@@ -69,15 +67,24 @@ h1{
     }
     
     .button-54 {
-    
         font-size: 12px;
     }
     
     .button-55 {
         font-size: 36px;
     }
+
+    .links:last-child{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
 }
 
+
+/* display instagram Gessyka*/
+
+/*
 @media (min-width: 360px) and (max-width: 375px){ 
    
     h1{
@@ -105,14 +112,14 @@ h1{
         font-size: 32px;
     }
     .links{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
     .links:last-child{
         padding-left: 40px;
         padding-right: 40px;
     }
-}
+} */
 
 @media (min-width: 376px) and (max-width: 425px){
   
