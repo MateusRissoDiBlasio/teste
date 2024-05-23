@@ -144,13 +144,13 @@ h1{
     }
 
     .links{
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
     
     .links:last-child{
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 55px;
+        padding-right: 55px;
     }
 
 } 
