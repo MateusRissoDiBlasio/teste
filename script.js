@@ -31,7 +31,7 @@ var options = {
 var curtime = new Date()
 var curmonth = curtime.getMonth()+1;
 
-if(curmonth == 5){
+if(curmonth == 6){
 
     location.replace ("src/campanhas/Namorados/namorados.html")
 
@@ -43,7 +43,7 @@ if(curmonth == 9){
 
 }
 
-if(curmonth == 10){
+if(curmonth == 5){
 
     location.replace ("src/campanhas/OutubroRosa/outubro-rosa.html")
     
