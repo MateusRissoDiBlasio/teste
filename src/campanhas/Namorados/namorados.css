@@ -1,17 +1,18 @@
 .outubro-rosa{
-    background-image: url(./images/casal-fundo-640-1.png);
+    background-image: url(./images/casal-fundo-640-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     align-items: right;
     justify-self: right;
     justify-items: right;
-    background-position: center;
+    background-position: bottom;
+    
 }
 
 main{
     display: flex;
     flex-direction: column;
-    height: 98vh;
+    height: 680px;
     width: 100vw;
 
 }
@@ -47,9 +48,8 @@ h1{
     font-size: 50px;
     color: red;
 }
-.fa-whatsapp{
+.whatsapp{
     font-size: 30px;
-    color: green;
 }
 
 .button-57 {
@@ -227,7 +227,7 @@ font-family: 'Reglisse-fill';
     src: url('./fonts/ReglisseFill.otf') format('opentype');
 }
 
-}
+/* } */
 
 /* .outubro-rosa {
 

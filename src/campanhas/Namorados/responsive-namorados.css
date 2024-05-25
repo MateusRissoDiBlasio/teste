@@ -91,28 +91,31 @@ h1{
         justify-content: right;
         padding: 0px 0px 0px 150px;
     }
-
-    .fa-whatsapp{
-        font-size: 25px;
-        background-color: white;
+    
+    .whatsapp{
+        width: 20px;
     }
 
     .links:first-child{
-    margin-top: 25px;
+    margin-top: 40px;
     }
 
     .links .button-57 {
         margin: 3px;
-        font-size: 10px;
+        font-size: 11px;
         color: aliceblue;
     }
 
     .links:last-child{
         padding: 60px;
+        padding-bottom: 0px;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 40px;
         }
 
+    /* promo */
+
+    
     .button-89{
         font-size: 26px;
     }
@@ -135,6 +138,7 @@ h1{
         font-size: 26px;
         text-shadow: 2px 2px 2px black;
     }
+    
 }
 
 /* display isntagram Penha*/
