@@ -93,8 +93,8 @@ h1{
     
     .frase{
         font-size: 10px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
         margin-bottom: 10px;
     }
     
@@ -111,12 +111,12 @@ h1{
         font-size: 32px;
     }
     .links{
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .links:last-child{
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 45px;
+        padding-right: 45px;
     }
 }
 
