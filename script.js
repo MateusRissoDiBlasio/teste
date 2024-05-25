@@ -1,5 +1,5 @@
 var curtime = new Date()
-var curmonth = curtime.getMonth()+2;
+var curmonth = curtime.getMonth()+6;
 
 if(curmonth == 1 || curmonth == 2 || curmonth == 3 || curmonth == 4 || curmonth == 5 || curmonth == 7 || curmonth == 8){
 
