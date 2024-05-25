@@ -84,7 +84,7 @@ h1{
     }
         
     .logo{
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
 
     .links{
@@ -110,7 +110,7 @@ h1{
         padding: 60px;
         padding-bottom: 0px;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 25px;
         }
 
     /* promo */
