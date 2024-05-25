@@ -31,7 +31,7 @@ var options = {
 var curtime = new Date()
 var curmonth = curtime.getMonth()+1;
 
-if(curmonth == 6){
+if(curmonth == 5){
 
     location.replace ("src/campanhas/Namorados/namorados.html")
 
