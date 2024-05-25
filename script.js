@@ -1,13 +1,13 @@
 var curtime = new Date()
 var curmonth = curtime.getMonth()+1;
 
-if(curmonth == 1 || curmonth == 2 || curmonth == 3 || curmonth == 5 || curmonth == 7 || curmonth == 8){
+if(curmonth == 1 || curmonth == 2 || curmonth == 3 || curmonth == 4 || curmonth == 7 || curmonth == 8){
 
     location.replace ("bio-transformacao.html")
 
 }
 
-if(curmonth == 6){
+if(curmonth == 5){
 
     location.replace ("src/campanhas/Namorados/namorados.html")
 
