@@ -86,6 +86,8 @@ h1{
     }
         
     .logo{
+        width: 100px;
+        height: 100px;
         margin-bottom: 0px;
     }
 
@@ -99,7 +101,7 @@ h1{
     }
 
     .links:first-child{
-    margin-top: 40px;
+    margin-top: 90px;
     }
 
     .links .button-57 {
