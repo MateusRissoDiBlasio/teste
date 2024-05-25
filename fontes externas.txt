@@ -1,0 +1,32 @@
+baixar a fonte
+colocar na pasta do projeto
+font-family = [criar nome para ela]
+src caminho do arquivo da fonte
+.otf
+.
+
+html
+
+@font-face {
+	font-family:' ';
+	src: url(' ') format(' '),
+	src: url(' ') format(' ');
+}
+
+/*
+	Tipos de format ()
+	- opentype (otf)
+	- truetype (ttf)
+	- embedded-opentype
+	- truetype-aat (Apple Advanced Typografy)
+	- svg
+*/
+
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+

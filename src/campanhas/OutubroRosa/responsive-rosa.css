@@ -50,7 +50,7 @@ h1{
     }
 }
 
-@media (min-width: 341px) and (max-width: 359px){ 
+@media (min-width: 341px) and (max-width: 375px){ 
 
     h1{
         margin: 4px;
@@ -83,7 +83,7 @@ h1{
 
 /* display instagram Gessyka*/
 
-
+/*
 @media (min-width: 360px) and (max-width: 375px){ 
 
     h1{
@@ -92,9 +92,9 @@ h1{
     }
     
     .frase{
-        font-size: 12px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
         margin-bottom: 10px;
     }
     
@@ -111,14 +111,16 @@ h1{
         font-size: 32px;
     }
     .links{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
     .links:last-child{
         padding-left: 40px;
         padding-right: 40px;
     }
-}
+} */
+
+/* display isntagram Penha*/
 
 @media (min-width: 376px) and (max-width: 425px){
 

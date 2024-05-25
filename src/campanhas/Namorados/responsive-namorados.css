@@ -1,62 +1,179 @@
-/* @media (max-width: 320px){
+@media (max-width: 320px){
 
-h1{
-    font-size: 25px;
-    margin: 4px;
-}
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
-.frase{
-    font-size: 12px;
-    margin-bottom: 35px;
-}
-
-.logo{
-    margin-bottom: 5px;
-}
-
-.button-54 {
-
-    font-size: 12px;
-}
-
-.button-55 {
-    font-size: 36px;
-}
-}
-
-@media (min-width: 321px) and (max-width: 340px){ 
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 30px;
+    }
 
     h1{
-        font-size: 25px;
-        margin: 4px;
+        margin: 6px;
+        color: goldenrod;
+        font-size: 26px;
     }
-    
-    .frase{
-        font-size: 12px;
-        margin-bottom: 35px;
-    }
-    
+        
     .logo{
         width: 100px;
         height: 100px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 110px;
     }
     
-    .button-54 {
-    
+    .whatsapp{
+        width: 20px;
+    }
+
+    .links:first-child{
+    margin-top: 80px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
         font-size: 12px;
+        color: aliceblue;
+    }
+
+    .links:last-child{
+        padding: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    /* promo */
+
+    
+    .button-89{
+        font-size: 24px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        text-shadow: 2px 2px 2px black;
     }
     
-    .button-55 {
-        font-size: 36px;
+}
+
+@media (min-width: 321px) and (max-width: 359px){ 
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-} */
 
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 30px;
+    }
 
+    h1{
+        margin: 6px;
+        color: goldenrod;
+        font-size: 26px;
+    }
+        
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 110px;
+    }
+    
+    .whatsapp{
+        width: 20px;
+    }
+
+    .links:first-child{
+    margin-top: 80px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 12px;
+        color: aliceblue;
+    }
+
+    .links:last-child{
+        padding: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    /* promo */
+
+    
+    .button-89{
+        font-size: 24px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 24px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+}
 
 
 /* display instagram Gessyka*/
-
 
 @media (min-width: 360px) and (max-width: 375px){ 
 
@@ -115,7 +232,7 @@ h1{
         padding-bottom: 0px;
         justify-content: center;
         margin-top: 20px;
-        }
+    }
 
     /* promo */
 
@@ -147,71 +264,7 @@ h1{
 
 /* display isntagram Penha*/
 
-/* @media (min-width: 376px) and (max-width: 425px){
-
-
-    body,
-    html,
-    #app{
-        height: 1024px;
-    }
-
-    .frase{
-        padding-left: 25px;
-        padding-right: 25px;
-        margin-bottom: 10px;
-        font-size: 14px;
-    }
-    
-    .logo{
-        margin-bottom: 5px;
-    }
-    
-    h1{
-        margin: 4px;
-    }
-
-    .links{
-        padding-left: 45px;
-        padding-right: 45px;
-    }
-    
-    .links:last-child{
-        padding-left: 55px;
-        padding-right: 55px;
-    }
-
-} 
-
-@media (min-width: 426px) and (max-width: 768px){
-    body,
-    html,
-    #app{
-        width: 768px;
-        height: 1024px;
-}
-}
-
-@media (min-width: 769px) {
-    
-    body,
-    html,
-    #app{
-        width: 768px;
-        height: 1024px;
-}
-
-.outubro-rosa{
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-main{
-    max-width: 768px;
-}
-
-} */
-
-@media (min-width: 376px) and (max-width: 425px){ 
+@media (min-width: 376px) and (max-width: 425px){
 
 
     .header{
@@ -230,26 +283,32 @@ main{
         font-family: "Parisienne", cursive;
         font-weight: 500;
         text-shadow: none;
-        font-size: 34px;
+        font-size: 30px;
     }
 
     h1{
-        margin: 6px;
         color: goldenrod;
+        font-size: 28px;
     }
         
     .logo{
-        margin-bottom: 5px;
+        width: 130px;
+        height: 130px;
+        margin-bottom: 0px;
     }
-    
 
     .links{
         justify-content: right;
-        padding: 0px 0px 0px 200px;
+        padding: 0px 0px 0px 120px;
+        margin-bottom: 5px;
+    }
+    
+    .whatsapp{
+        width: 20px;
     }
 
     .links:first-child{
-    margin-top: 35px;
+    margin-top: 80px;
     }
 
     .links .button-57 {
@@ -259,19 +318,212 @@ main{
     }
 
     .links:last-child{
-        padding: 60px;
+        padding: 80px;
+        padding-top: 50px;
+        padding-bottom: 0px;
         justify-content: center;
-        margin-top: 40px;
-        }
+        margin-top: 20px;
+    }
 
     /* promo */
 
     
-    .links .button-89{
-        /* trocar */
-        font-family: "Reglisse", cursive;
-        font-weight: 400;
-        color: goldenrod;
+    .button-89{
+        font-size: 26px;
     }
 
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+} 
+
+
+@media (min-width: 426px) and (max-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 36px;
+    }
+
+    h1{
+        color: goldenrod;
+        font-size: 30px;
+    }
+        
+    .logo{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 180px;
+        margin-bottom: 5px;
+    }
+    
+    .whatsapp{
+        width: 25px;
+    }
+
+    .links:first-child{
+    margin-top: 70px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+    .links:last-child{
+        padding: 80px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    /* promo */
+
+    
+    .button-89{
+        font-size: 26px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+}
+
+@media (min-width: 769px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin: 4px;
+        font-family: "Parisienne", cursive;
+        font-weight: 500;
+        text-shadow: none;
+        font-size: 36px;
+    }
+
+    h1{
+        color: goldenrod;
+        font-size: 30px;
+    }
+        
+    .logo{
+        width: 135px;
+        height: 135px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 180px;
+        margin-bottom: 5px;
+    }
+    
+    .whatsapp{
+        width: 25px;
+    }
+
+    .links:first-child{
+    margin-top: 70px;
+    }
+
+    .links .button-57 {
+        margin: 3px;
+        font-size: 16px;
+        color: aliceblue;
+    }
+
+    .links:last-child{
+        padding: 80px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    /* promo */
+
+    
+    .button-89{
+        font-size: 26px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 26px;
+        text-shadow: 2px 2px 2px black;
+    }
+    
 }
