@@ -218,7 +218,7 @@
     }
 
     .links:first-child{
-    margin-top: 90px;
+    margin-top: 80px;
     }
 
     .links .button-57 {
@@ -229,10 +229,9 @@
 
     .links:last-child{
         padding: 60px;
-        padding-top: 50px;
         padding-bottom: 0px;
         justify-content: center;
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     /* promo */
@@ -370,20 +369,21 @@
         color: red;
         margin: 4px;
         font-family: "Parisienne", cursive;
-        font-weight: 500;
-        text-shadow: none;
-        font-size: 36px;
+        font-weight: bold;
+        font-size: 60px;
+        text-shadow: 1px 1px 1px black;
     }
 
     h1{
         color: goldenrod;
-        font-size: 30px;
+        font-size: 50px;
     }
         
     .logo{
         width: 135px;
         height: 135px;
         margin-bottom: 0px;
+        margin-right: 50px;
     }
 
     .links{
@@ -442,7 +442,19 @@
     
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .namorados{
+        background-image: url(./images/casal-fundo-640-2.png);
+        max-width: 769px;
+        height: 120vh;
+        background-repeat: no-repeat;
+        align-items: right;
+        justify-self: right;
+        justify-items: right;
+        background-position: bottom;
+    }
+
     .header{
         display: flex;
         flex-direction: row;
@@ -455,27 +467,28 @@
         justify-self: center;
         align-self: center;
         color: red;
-        margin: 4px;
+        margin-left: 50px;
         font-family: "Parisienne", cursive;
-        font-weight: 500;
+        font-weight: 600;
         text-shadow: none;
-        font-size: 36px;
+        font-size: 50px;
+
     }
 
     h1{
         color: goldenrod;
-        font-size: 30px;
+        font-size: 50px;
     }
         
     .logo{
-        width: 135px;
-        height: 135px;
+        width: 180px;
+        height: 180px;
         margin-bottom: 0px;
     }
 
     .links{
         justify-content: right;
-        padding: 0px 0px 0px 180px;
+        padding: 0px 0px 0px 420px;
         margin-bottom: 5px;
     }
     
@@ -484,20 +497,23 @@
     }
 
     .links:first-child{
-    margin-top: 70px;
+    margin-top: 100px;
     }
 
     .links .button-57 {
-        margin: 3px;
-        font-size: 16px;
+        margin: 10px;
+        font-size: 20px;
         color: aliceblue;
+        padding: 25px;
+        line-height: 25px;
+        
     }
 
     .links:last-child{
-        padding: 80px;
-        padding-top: 50px;
+        padding-right: 10px;
+        padding-left: 420px;
+        padding-top: 10px;
         padding-bottom: 0px;
-        justify-content: center;
         margin-top: 0px;
     }
 
@@ -505,7 +521,7 @@
 
     
     .button-89{
-        font-size: 26px;
+        font-size: 36px;
     }
 
     .button-89 .promo::after{
@@ -513,7 +529,7 @@
         position: absolute;
         font-family: 'Reglisse-fill';
         color: red;
-        font-size: 26px;
+        font-size: 36px;
         margin-left: 60px;
         text-shadow: 2px 2px 2px black;
     }
@@ -523,7 +539,109 @@
         position: absolute;
         font-family: 'Reglisse-fill';
         color: red;
-        font-size: 26px;
+        font-size: 36px;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+@media (min-width: 1025px) {
+    
+
+    .namorados{
+        background-image: url(./images/casal-fundo-640-2.png);
+        max-width: 769px;
+        height: 120vh;
+        background-repeat: no-repeat;
+        align-items: right;
+        justify-self: right;
+        justify-items: right;
+        background-position: bottom;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .msg {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        color: red;
+        margin-left: 50px;
+        font-family: "Parisienne", cursive;
+        font-weight: 600;
+        text-shadow: none;
+        font-size: 50px;
+
+    }
+
+    h1{
+        color: goldenrod;
+        font-size: 50px;
+    }
+        
+    .logo{
+        width: 180px;
+        height: 180px;
+        margin-bottom: 0px;
+    }
+
+    .links{
+        justify-content: right;
+        padding: 0px 0px 0px 420px;
+        margin-bottom: 5px;
+    }
+    
+    .whatsapp{
+        width: 25px;
+    }
+
+    .links:first-child{
+    margin-top: 100px;
+    }
+
+    .links .button-57 {
+        margin: 10px;
+        font-size: 20px;
+        color: aliceblue;
+        padding: 25px;
+        line-height: 25px;
+        
+    }
+
+    .links:last-child{
+        padding-right: 10px;
+        padding-left: 420px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    /* promo */
+
+    
+    .button-89{
+        font-size: 36px;
+    }
+
+    .button-89 .promo::after{
+        content:"PROMOS";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 36px;
+        margin-left: 60px;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .button-89 .novidades::after{
+        content:"NOVIDADES";
+        position: absolute;
+        font-family: 'Reglisse-fill';
+        color: red;
+        font-size: 36px;
         text-shadow: 2px 2px 2px black;
     }
     
