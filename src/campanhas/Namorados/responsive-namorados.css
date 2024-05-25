@@ -86,11 +86,15 @@ h1{
     .logo{
         margin-bottom: 5px;
     }
-    
 
     .links{
         justify-content: right;
         padding: 0px 0px 0px 160px;
+    }
+
+    .fa-whatsapp{
+        font-size: 25px;
+        background-color: white;
     }
 
     .links:first-child{
@@ -99,7 +103,7 @@ h1{
 
     .links .button-57 {
         margin: 3px;
-        font-size: 12px;
+        font-size: 10px;
         color: aliceblue;
     }
 
