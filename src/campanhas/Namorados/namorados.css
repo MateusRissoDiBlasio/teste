@@ -1,4 +1,4 @@
-.outubro-rosa{
+.namorados{
     background-image: url(./images/casal-fundo-640-2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,6 @@ h1{
     color: aliceblue;
     text-shadow: 2px 2px black;
     align-self: center;
-    color:green;
     margin-right: 20px;
 }
 
@@ -79,7 +78,8 @@ h1{
 }
 
 .button-57 span:last-child {
-    color: white;
+    color: red;
+    font-weight: 700;
     display: block;
     position: absolute;
     bottom: 0;
@@ -100,7 +100,7 @@ h1{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: red;
+    background-color: white;
     transform-origin: bottom center;
     transition: transform 300ms cubic-bezier(0.48, 0, 0.12, 1);
     transform: skewY(9.3deg) scaleY(0);
