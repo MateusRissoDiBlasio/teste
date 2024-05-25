@@ -74,12 +74,13 @@ h1{
         font-family: "Parisienne", cursive;
         font-weight: 500;
         text-shadow: none;
-        font-size: 34px;
+        font-size: 30px;
     }
 
     h1{
         margin: 6px;
         color: goldenrod;
+        font-size: 14px;
     }
         
     .logo{
@@ -98,7 +99,7 @@ h1{
 
     .links .button-57 {
         margin: 3px;
-        font-size: 14px;
+        font-size: 12px;
         color: aliceblue;
     }
 
