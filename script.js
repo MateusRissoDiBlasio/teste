@@ -28,9 +28,6 @@ var options = {
     maxVelocity: 0.15,
 };
 
-
-}
-
 var curtime = new Date()
 var curmonth = curtime.getMonth()+1;
 
@@ -53,8 +50,10 @@ if(curmonth == 10){
 }
 
 if(curmonth == 11){
+ 
     location.replace ("src/campanhas/NovembroAzul/novembro-azul.html")
 
+}
 
 butterfliesBackground(options);
 
