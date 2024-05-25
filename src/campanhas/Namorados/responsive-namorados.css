@@ -218,7 +218,7 @@
     }
 
     .links:first-child{
-    margin-top: 80px;
+    margin-top: 90px;
     }
 
     .links .button-57 {
@@ -229,9 +229,10 @@
 
     .links:last-child{
         padding: 60px;
+        padding-top: 30px;
         padding-bottom: 0px;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     /* promo */
