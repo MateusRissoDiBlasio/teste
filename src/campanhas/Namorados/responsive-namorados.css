@@ -227,12 +227,21 @@
         color: aliceblue;
     }
 
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+
     .links:last-child{
         padding: 60px;
-        padding-top: 40px;
         padding-bottom: 0px;
         justify-content: center;
-        margin-top: 15px;
+        margin-top: 20px;
+    }
+
+    .bag{
+        width: 35px;
     }
 
     /* promo */
