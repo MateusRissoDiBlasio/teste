@@ -313,13 +313,21 @@
         padding: 0px 0px 0px 120px;
         margin-bottom: 5px;
     }
+
+    .button-57 span:last-child{
+        top: 60%;    
+    }
+
+    .bag{
+        width: 20px;
+    }
     
     .whatsapp{
         width: 20px;
     }
 
     .links:first-child{
-    margin-top: 80px;
+        margin-top: 80px;
     }
 
     .links .button-57 {
