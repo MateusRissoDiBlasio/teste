@@ -40,6 +40,14 @@
         width: 20px;
     }
 
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+    .bag{
+        width: 35px;
+    }
+
     .links:first-child{
     margin-top: 80px;
     }
@@ -59,7 +67,6 @@
 
     /* promo */
 
-    
     .button-89{
         font-size: 24px;
     }
@@ -111,7 +118,7 @@
         color: goldenrod;
         font-size: 26px;
     }
-        
+
     .logo{
         width: 100px;
         height: 100px;
@@ -122,7 +129,7 @@
         justify-content: right;
         padding: 0px 0px 0px 110px;
     }
-    
+
     .whatsapp{
         width: 20px;
     }
@@ -135,6 +142,14 @@
         margin: 3px;
         font-size: 12px;
         color: aliceblue;
+    }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+    .bag{
+        width: 35px;
     }
 
     .links:last-child{
@@ -172,7 +187,6 @@
     
 }
 
-
 /* display instagram Gessyka*/
 
 @media (min-width: 360px) and (max-width: 375px){ 
@@ -201,7 +215,7 @@
         color: goldenrod;
         font-size: 26px;
     }
-        
+
     .logo{
         width: 100px;
         height: 100px;
@@ -212,7 +226,7 @@
         justify-content: right;
         padding: 0px 0px 0px 150px;
     }
-    
+
     .whatsapp{
         width: 20px;
     }
@@ -227,18 +241,15 @@
         color: aliceblue;
     }
 
-
     .button-57 span:last-child {
         top: 60%;
     }
 
-
     .links:last-child{
         padding: 60px;
-        padding-top: 40px;
         padding-bottom: 0px;
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     .bag{
@@ -247,7 +258,6 @@
 
     /* promo */
 
-    
     .button-89{
         font-size: 26px;
     }
@@ -270,13 +280,12 @@
         font-size: 26px;
         text-shadow: 2px 2px 2px black;
     }
-    
+
 }
 
-/* display instagram Penha*/
+/* display isntagram Penha*/
 
 @media (min-width: 376px) and (max-width: 425px){
-
 
     .header{
         display: flex;
@@ -301,7 +310,7 @@
         color: goldenrod;
         font-size: 28px;
     }
-        
+
     .logo{
         width: 130px;
         height: 130px;
@@ -314,14 +323,13 @@
         margin-bottom: 5px;
     }
 
-    .button-57 span:last-child{
-        top: 60%;    
+    .button-57 span:last-child {
+        top: 60%;
     }
-
     .bag{
         width: 35px;
     }
-    
+
     .whatsapp{
         width: 20px;
     }
@@ -346,7 +354,6 @@
 
     /* promo */
 
-    
     .button-89{
         font-size: 26px;
     }
@@ -369,11 +376,11 @@
         font-size: 26px;
         text-shadow: 2px 2px 2px black;
     }
-    
+
 } 
 
-
 @media (min-width: 426px) and (max-width: 768px){
+
     .header{
         display: flex;
         flex-direction: row;
@@ -397,7 +404,7 @@
         color: goldenrod;
         font-size: 50px;
     }
-        
+
     .logo{
         width: 135px;
         height: 135px;
@@ -410,13 +417,20 @@
         padding: 0px 0px 0px 180px;
         margin-bottom: 5px;
     }
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+    .bag{
+        width: 35px;
+    }
     
     .whatsapp{
         width: 25px;
     }
 
     .links:first-child{
-    margin-top: 70px;
+        margin-top: 70px;
     }
 
     .links .button-57 {
@@ -435,7 +449,6 @@
 
     /* promo */
 
-    
     .button-89{
         font-size: 26px;
     }
@@ -491,14 +504,13 @@
         font-weight: 600;
         text-shadow: none;
         font-size: 50px;
-
     }
 
     h1{
         color: goldenrod;
         font-size: 50px;
     }
-        
+
     .logo{
         width: 180px;
         height: 180px;
@@ -510,7 +522,15 @@
         padding: 0px 0px 0px 420px;
         margin-bottom: 5px;
     }
-    
+
+    .button-57 span:last-child {
+        top: 60%;
+    }
+
+    .bag{
+        width: 35px;
+    }
+
     .whatsapp{
         width: 25px;
     }
@@ -525,7 +545,6 @@
         color: aliceblue;
         padding: 25px;
         line-height: 25px;
-        
     }
 
     .links:last-child{
@@ -538,7 +557,6 @@
 
     /* promo */
 
-    
     .button-89{
         font-size: 36px;
     }
@@ -561,9 +579,10 @@
         font-size: 36px;
         text-shadow: 2px 2px 2px black;
     }
+
 }
+
 @media (min-width: 1025px) {
-    
 
     .namorados{
         background-image: url(./images/casal-fundo-640-2.png);
@@ -593,14 +612,13 @@
         font-weight: 600;
         text-shadow: none;
         font-size: 50px;
-
     }
 
     h1{
         color: goldenrod;
         font-size: 50px;
     }
-        
+
     .logo{
         width: 180px;
         height: 180px;
@@ -612,7 +630,7 @@
         padding: 0px 0px 0px 420px;
         margin-bottom: 5px;
     }
-    
+
     .whatsapp{
         width: 25px;
     }
@@ -640,7 +658,6 @@
 
     /* promo */
 
-    
     .button-89{
         font-size: 36px;
     }
@@ -661,7 +678,7 @@
         font-family: 'Reglisse-fill';
         color: red;
         font-size: 36px;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 2px black;        
     }
-    
+
 }
