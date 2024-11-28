@@ -7,7 +7,7 @@ if(curmonth == 1 || curmonth == 2 || curmonth == 3 || curmonth == 4 || curmonth 
 
 }
 
-if(curmonth == 6){
+if(curmonth == 11){
 
     location.replace ("src/campanhas/Namorados/namorados.html")
 
@@ -25,7 +25,7 @@ if(curmonth == 10){
     
 }
 
-if(curmonth == 11){
+if(curmonth == 12){
     location.replace ("src/campanhas/NovembroAzul/novembro-azul.html")
 
 }
