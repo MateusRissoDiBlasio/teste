@@ -1,7 +1,8 @@
 var perfEntries = performance.getEntriesByType("navigation");
 
 if (perfEntries[0].type === "back_forward") {
-    window.location.href="./namorados.html";
+    // window.location.href="./namorados.html";
+    location.reload();
 }
 
 function ruaOliveiraBotelho(){
