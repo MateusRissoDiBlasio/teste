@@ -1,9 +1,8 @@
 var perfEntries = performance.getEntriesByType("navigation");
+var add = 0;
 
-if (perfEntries[0].type == "reload"){
-    
-    setTimeout(); 
-    
+if (perfEntries[0].type == "reload"){ 
+    add = add+1;
 }{ location.reload(); }
 
 function ruaOliveiraBotelho(){
