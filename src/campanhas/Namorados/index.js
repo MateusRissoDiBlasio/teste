@@ -3,7 +3,7 @@ var add = 0;
 
 if (perfEntries[0].type == "reload"){ 
     add = add+1;
-}{ location.reload(); }
+}else{ location.reload(); }
 
 console.log(perfEntries[0].type);
 console.log(add);
