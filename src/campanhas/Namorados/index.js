@@ -1,12 +1,10 @@
 var perfEntries = performance.getEntriesByType("navigation");
-var add = 0;
 
 if (perfEntries[0].type === "reload"){ 
-    add = add+1;
-}else{ location.reload(); }
-
-console.log(perfEntries[0].type);
-console.log(add);
+    document.getElementById('myCheckBox1').checked = false;
+    document.getElementById('myCheckBox2').checked = false;
+    document.getElementById('myCheckBox3').checked = false;
+}
 
 function ruaOliveiraBotelho(){
     document.getElementById('btn1').addEventListener('click', function() {
