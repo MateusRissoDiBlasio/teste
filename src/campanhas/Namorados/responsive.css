@@ -258,21 +258,21 @@
 @media (min-width: 376px) and (max-width: 425px){
     #app{
         width: 100vw;
-        height: 93vh;
+        height: 94vh;
         background-image: url(./images/ajuste425.png);
-        background-size: 100vw 93vh;
+        background-size: 100vw 94vh;
     }
     
     main{
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 93vh;
+        height: 94vh;
     }
 
     .namorados{
         width: 100vw;
-        height: 93vh;
+        height: 94vh;
     }
             
     h1{
