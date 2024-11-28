@@ -1,5 +1,7 @@
 var perfEntries = performance.getEntriesByType("navigation");
 
+console.log(perfEntries);
+
 if (perfEntries[0].type === "reload"){ 
     document.getElementById('checkbox1').checked = false;
     document.getElementById('checkbox2').checked = false;
