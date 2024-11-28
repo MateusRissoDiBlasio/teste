@@ -3,7 +3,10 @@ var add = 0;
 
 if (perfEntries[0].type == "reload"){ 
     add = add+1;
-}else{ location.reload(); }
+}{ location.reload(); }
+
+console.log(perfEntries[0].type);
+console.log(add);
 
 function ruaOliveiraBotelho(){
     document.getElementById('btn1').addEventListener('click', function() {
