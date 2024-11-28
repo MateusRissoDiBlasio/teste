@@ -3,7 +3,7 @@ var perfEntries = performance.getEntriesByType("navigation");
 if (perfEntries[0].type === "back_forward") {
     window.location.href="https://mateusrissodiblasio.github.io/teste/src/campanhas/Namorados/namorados.html";
 }
-console.log(perfEntries);
+console.log(perfEntries[0].type);
 
 function ruaOliveiraBotelho(){
     document.getElementById('btn1').addEventListener('click', function() {
