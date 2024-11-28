@@ -1,9 +1,9 @@
 var perfEntries = performance.getEntriesByType("navigation");
 
 if (perfEntries[0].type === "reload"){ 
-    document.getElementById('myCheckBox1').checked = false;
-    document.getElementById('myCheckBox2').checked = false;
-    document.getElementById('myCheckBox3').checked = false;
+    document.getElementById('checkbox1').checked = false;
+    document.getElementById('checkbox2').checked = false;
+    document.getElementById('checkbox3').checked = false;
 }
 
 function ruaOliveiraBotelho(){
