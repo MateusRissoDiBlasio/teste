@@ -1,7 +1,7 @@
 var perfEntries = performance.getEntriesByType("navigation");
 var add = 0;
 
-if (perfEntries[0].type == "reload"){ 
+if (perfEntries[0].type === "reload"){ 
     add = add+1;
 }else{ location.reload(); }
 
