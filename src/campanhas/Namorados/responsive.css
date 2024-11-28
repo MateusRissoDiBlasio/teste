@@ -258,27 +258,26 @@
 @media (min-width: 376px) and (max-width: 425px){
     #app{
         width: 100vw;
-        height: 93.2vh;
+        height: 93.3vh;
         background-image: url(./images/ajuste425.png);
-        background-size: 100vw 93.2vh;
+        background-size: 100vw 93.3vh;
     }
     
     main{
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 93.2vh;
+        height: 93.3vh;
     }
 
     .namorados{
         width: 100vw;
-        height: 93.2vh;
+        height: 93.3vh;
     }
             
     h1{
         font-size: 40px;
         margin-top: 10px;
-        color: aqua;
     }
     
     
