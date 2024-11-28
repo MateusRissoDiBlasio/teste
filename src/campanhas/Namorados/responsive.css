@@ -184,6 +184,10 @@
     .links:last-child{
         padding: 0;
     }
+
+    .links:first-child{
+        margin-top: 5px;
+    }
         
     .button-89 {
         --b: 4px;   /* border thickness */
@@ -255,21 +259,21 @@
 @media (min-width: 376px) and (max-width: 425px){
     #app{
         width: 100vw;
-        height: 95vh;
+        height: 92vh;
         background-image: url(./images/ajuste425.png);
-        background-size: 100vw 95vh;
+        background-size: 100vw 92vh;
     }
     
     main{
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 95vh;
+        height: 92vh;
     }
 
     .namorados{
         width: 100vw;
-        height: 95vh;
+        height: 92vh;
     }
             
     h1{
@@ -291,7 +295,7 @@
         font-size: 40px;
     }
     .container{
-        margin-top: 10px;
+        margin-top: 30px;
     }
     
     .gps:active{
