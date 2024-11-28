@@ -1,3 +1,9 @@
+var perfEntries = performance.getEntriesByType("navigation");
+
+if (perfEntries[0].type === "back_forward") {
+    window.location.href="./namorados.html";
+}
+
 function ruaOliveiraBotelho(){
     document.getElementById('btn1').addEventListener('click', function() {
         setTimeout(function () {document.getElementById('btn1', 'msg', 'bag').classList.add('visibillity'); document.getElementById('checkbox1').checked = true;}, 1000);
