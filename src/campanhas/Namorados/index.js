@@ -3,20 +3,21 @@ let count = 0;
 const firstIntervalId = setInterval(() => {
     if(document.getElementById('checkbox1').checked === true){
     
-   setTimeout(function () {document.getElementById('checkbox1').checked = false; document.getElementById('btn1', 'msg', 'bag').classList.remove('visibillity');},2600);
-
+   setTimeout(function () {document.getElementById('checkbox1').checked = false;},2600);
+    setTimeout(function () {document.getElementById('btn1', 'msg', 'bag').classList.remove('visibillity');},3000);
     }{};
 
     if(document.getElementById('checkbox2').checked === true){
     
     setTimeout(function () {document.getElementById('checkbox2').checked = false;},2600);
-    setTimeout(function () {document.getElementById('btn2', 'msg', 'bag').classList.remove('visibillity');},2800);
+    setTimeout(function () {document.getElementById('btn2', 'msg', 'bag').classList.remove('visibillity');},3000);
 
     }{};
 
     if(document.getElementById('checkbox3').checked === true){
     
-    setTimeout(function () {document.getElementById('checkbox3').checked = false; document.getElementById('btn3', 'msg', 'bag').classList.remove('visibillity');},2600);
+    setTimeout(function () {document.getElementById('checkbox3').checked = false;},2600);
+    setTimeout(function () {document.getElementById('btn3', 'msg', 'bag').classList.remove('visibillity');},3000);
     }{};
     
     count = count+1.5;
