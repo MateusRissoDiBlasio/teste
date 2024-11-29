@@ -26,8 +26,9 @@ button {
     background: #050505;
     /* background: #fff; */
     z-index: 0;
-    transition: 0.4s;
-    /* transition-delay: 2s; */
+    transition-delay: 0.1s;
+    transition: 0.6s;
+    
     
 }
 
@@ -70,7 +71,7 @@ input[type="checkbox"]:checked + button::before {
 }
 
 input[type="checkbox"]:checked + button::after { 
-    transform: rotate(-45deg) translate(-1.9em , -2.8em);
+    transform: rotate(-45deg) translate(-1.85em , -2.8em);
     animation: glow 0.6s ease-in 0.4s forwards, dropshadow-left 0.6s ease-in 0.4s forwards;
     z-index: 11;
     
