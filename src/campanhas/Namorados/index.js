@@ -1,19 +1,75 @@
-var perfEntries = performance.getEntriesByType("navigation");
+// var perfEntries = performance.getEntriesByType("navigation");
 
-console.log(perfEntries);
+// if (perfEntries[0].type === "back_forward"){
+//     setTimeout(function () { window.location.href="./namorados.html"; }, 100);
+// }
+// if (perfEntries[0].type === "back_forward" || perfEntries[0].type === "navigate" || perfEntries[0].type === "reload"){
+// document.getElementById('heart1').addEventListener('click', function() { document.getElementById('checkbox1').checked = false });
+// }
+// if (perfEntries[0].type == "reload"){
+    
+//     setTimeout(); 
+    
+// }{ location.reload(); }
 
-if (perfEntries[0].type === "reload"){ 
-    document.getElementById('checkbox1').checked = false;
-    document.getElementById('checkbox2').checked = false;
-    document.getElementById('checkbox3').checked = false;
-}
+// var add = 0;
+
+// if (perfEntries[0].type === "reload"){ 
+//     add = add+1;
+// }else{ location.reload(); }
+
+// console.log(perfEntries[0].type);
+// console.log(add);
+
+
+// let count = 0;
+
+
+// const intervalId = setInterval(() => {
+//   if(document.getElementById('checkbox1').checked === true){
+    
+//     setTimeout(function () {document.getElementById('checkbox1').checked = false;},3000);
+
+//   }{};
+  
+//   count = count+5;
+//   console.log(count); // This will log the number every second
+//   console.log(document.getElementById('checkbox1').checked === true)
+// }, 5000); // Executes every 1000 milliseconds (1 second)
+
+let count = 0;
+
+const firstIntervalId = setInterval(() => {
+    if(document.getElementById('checkbox1').checked === true){
+      
+      setTimeout(function () {document.getElementById('checkbox1').checked = false;},2600);
+  
+    }{};
+
+    if(document.getElementById('checkbox2').checked === true){
+      
+        setTimeout(function () {document.getElementById('checkbox2').checked = false;},2600);
+    }{};
+
+    if(document.getElementById('checkbox3').checked === true){
+    
+        setTimeout(function () {document.getElementById('checkbox3').checked = false;},2600);
+    }{};
+    count = count+1.5;
+    console.log(count);
+    console.log(document.getElementById('checkbox1').checked === true);
+    console.log(document.getElementById('checkbox2').checked === true);
+    console.log(document.getElementById('checkbox3').checked === true);
+  }, 1500);
 
 function ruaOliveiraBotelho(){
     document.getElementById('btn1').addEventListener('click', function() {
         setTimeout(function () {document.getElementById('btn1', 'msg', 'bag').classList.add('visibillity'); document.getElementById('checkbox1').checked = true;}, 1000);
     });
-    setTimeout(function () { window.location.href="https://api.whatsapp.com/send?phone=5522999235157"; }, 2200);
-    
+    setTimeout(function () { window.location.href="https://api.whatsapp.com/send?phone=5522999235157"; document.getElementById("heart1").click();}, 2000);  
+    // setTimeout(function() { document.getElementById('heart1').addEventListener('click', function() {  document.getElementById('checkbox1').checked = false;
+
+    // });},2300);
 }
 
 function ruaMoisesAmelio(){
