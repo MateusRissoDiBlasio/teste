@@ -66,10 +66,10 @@ function ruaOliveiraBotelho(){
     document.getElementById('btn1').addEventListener('click', function() {
         setTimeout(function () {document.getElementById('btn1', 'msg', 'bag').classList.add('visibillity'); document.getElementById('checkbox1').checked = true;}, 1000);
     });
-    setTimeout(function () { window.location.href="https://api.whatsapp.com/send?phone=5522999235157"; document.getElementById("heart1").click();}, 2000);  
+    setTimeout(function () { window.location.href="https://api.whatsapp.com/send?phone=5522999235157"; }, 2000);  
     // setTimeout(function() { document.getElementById('heart1').addEventListener('click', function() {  document.getElementById('checkbox1').checked = false;
 
-    // });},2300);
+    // });},2000);
 }
 
 function ruaMoisesAmelio(){
