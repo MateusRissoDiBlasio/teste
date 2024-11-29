@@ -48,12 +48,12 @@ const firstIntervalId = setInterval(() => {
 
     if(document.getElementById('checkbox2').checked === true){
       
-        setTimeout(function () {document.getElementById('checkbox2').checked = false; document.getElementById('btn1', 'msg', 'bag').classList.remove('visibillity');},2600);
+        setTimeout(function () {document.getElementById('checkbox2').checked = false; document.getElementById('btn2', 'msg', 'bag').classList.remove('visibillity');},2600);
     }{};
 
     if(document.getElementById('checkbox3').checked === true){
     
-        setTimeout(function () {document.getElementById('checkbox3').checked = false; document.getElementById('btn1', 'msg', 'bag').classList.remove('visibillity');},2600);
+        setTimeout(function () {document.getElementById('checkbox3').checked = false; document.getElementById('btn3', 'msg', 'bag').classList.remove('visibillity');},2600);
     }{};
     count = count+1.5;
     console.log(count);
