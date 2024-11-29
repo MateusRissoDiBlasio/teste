@@ -3,12 +3,15 @@ let count = 0;
 const firstIntervalId = setInterval(() => {
     if(document.getElementById('checkbox1').checked === true){
     
-    setTimeout(function () {document.getElementById('checkbox2').checked = false; document.getElementById('btn2', 'msg', 'bag').classList.remove('visibillity');},2600);
+   setTimeout(function () {document.getElementById('checkbox1').checked = false; document.getElementById('btn1', 'msg', 'bag').classList.remove('visibillity');},2600);
+
     }{};
 
     if(document.getElementById('checkbox2').checked === true){
     
-    setTimeout(function () {document.getElementById('checkbox2').checked = false; document.getElementById('btn2', 'msg', 'bag').classList.remove('visibillity');},2600);
+    setTimeout(function () {document.getElementById('checkbox2').checked = false;},2600);
+    setTimeout(function () {document.getElementById('btn2', 'msg', 'bag').classList.remove('visibillity');},2000);
+
     }{};
 
     if(document.getElementById('checkbox3').checked === true){
